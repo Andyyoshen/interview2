@@ -1,0 +1,12 @@
+{
+  "name": "plugin-message-system",
+  "version": "1.0.0",
+  "description": "插件式訊息處理系統",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
