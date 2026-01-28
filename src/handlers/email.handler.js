@@ -34,9 +34,7 @@ class EmailHandler extends MessageHandler {
       message: 'Email sent successfully',
       data: {
         messageId,
-        status: 'sent',
-        to,
-        subject
+        status: 'sent'
       }
     };
   }

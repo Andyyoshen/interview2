@@ -33,8 +33,7 @@ class LineHandler extends MessageHandler {
       message: 'LINE message sent successfully',
       data: {
         messageId,
-        status: 'sent',
-        userId
+        status: 'sent'
       }
     };
   }

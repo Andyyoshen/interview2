@@ -33,8 +33,7 @@ class SmsHandler extends MessageHandler {
       message: 'SMS sent successfully',
       data: {
         messageId,
-        status: 'sent',
-        phoneNumber
+        status: 'sent'
       }
     };
   }
